@@ -1,6 +1,6 @@
 #경기
 time=int(input("경기는 몇시입니까?"))
-win=input("이긴 팀은 어디입니까?")
+win=input("이긴 팀은 어디인갑쇼?")
 lose=input("진 팀은 어디입니까?")
 mvp=input("우수선수는 누구입니까?")
 score = input("스코어는 몇 대 몇 입니까?")
@@ -13,7 +13,7 @@ print('''오늘 {0}시에 야구 경기가 열렸습니다.\n
 결국 {1}이 {2}를 {4}로 이겼습니다.
       '''.format(time,win,lose,mvp,score))
 #초를 분으로 계산
-sec=int(input("초 입력:"))
+sec=int(input("초 입력: "))
 min=sec//60
 second=sec%60
 
